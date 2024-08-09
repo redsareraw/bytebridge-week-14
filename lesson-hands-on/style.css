@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color: lightgrey;
+    border-bottom: 5px solid black;
+    padding: 0 15px;
+}
+
+.players {
+    display: flex;
+    padding: 15px;
+    background-color: red;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.players > * {
+    border: 2px solid black;
+    padding: 10px;
+}
